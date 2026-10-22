@@ -1,0 +1,15 @@
+# Personal configuration: holds local paths (ffmpeg location, last used folder).
+# The app runs fine without it and writes its own on first save.
+settings.json
+
+# Python
+__pycache__/
+*.py[cod]
+
+# PyInstaller output
+build/
+dist/
+*.spec
+
+# Editor
+.vscode/
